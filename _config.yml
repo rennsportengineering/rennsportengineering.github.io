@@ -1,0 +1,36 @@
+# Site settings
+title: RennSport Engineering
+baseurl: ""
+url: "http://rennsportengineering.com"
+author: Simon van der Veldt
+permalink: /:title
+include: ["_pages"]
+exclude: ["vendor"]
+
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+redcarpet:
+  extensions: ["footnotes", "smart", "hard_wrap", "no_intra_emphasis"]
+sass:
+  style: :compressed
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "drafts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
