@@ -8,10 +8,8 @@ include: ["_pages"]
 exclude: ["vendor"]
 
 # Build settings
-markdown: redcarpet
-highlighter: pygments
-redcarpet:
-  extensions: ["footnotes", "smart", "hard_wrap", "no_intra_emphasis"]
+markdown: kramdown
+highlighter: rouge
 sass:
   style: :compressed
 
