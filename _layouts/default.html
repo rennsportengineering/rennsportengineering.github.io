@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8"> 
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
     <title>{{ site.title }}{% if page.id %} - {{ page.title }}{% endif %}</title>
     <link href="https://plus.google.com/100739856147735932449" rel="author" />
@@ -28,8 +28,6 @@
     </main>
 
     <footer>&copy; 2013 - {{ site.time | date: "%Y" }} {{ site.author }} - <a href="{{ "/feed.xml" | prepend: site.baseurl }}">Newsfeed</a></footer>
-
-    <script src="/assets/js/ga.js"async></script>
 
     {% if page.js %}
         {% for script in page.js %}
