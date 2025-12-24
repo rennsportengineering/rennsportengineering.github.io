@@ -8,6 +8,7 @@ include: ["_pages"]
 exclude: ["vendor"]
 
 # Build settings
+theme: null
 markdown: kramdown
 highlighter: rouge
 sass:
