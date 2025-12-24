@@ -11,3 +11,6 @@ bundle install --path vendor/bundle
 bundle exec jekyll serve --watch
 # Go to http://localhost:4000 to view the site
 ```
+
+## Attribution
+- Robots.txt blocklist https://github.com/ai-robots-txt/ai.robots.txt
